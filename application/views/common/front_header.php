@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php if($this->common->language_name=='arabic'){echo 'lang="ar" dir="rtl"';}else if($this->common->language_name=='french'){echo 'lang="fr" dir="ltr"';}else if($this->common->language_name=='english'){echo 'lang="en" dir="ltr"';} ?> >
+<html <?php if($this->common->language_name=='arabic'){echo 'lang="ar" dir="rtl"';}else if($this->common->language_name=='french'){echo 'lang="fr" dir="ltr"';}else if($this->common->language_name=='english'){echo 'lang="en" dir="ltr"';}else if($this->common->language_name=='español'){echo 'lang="es" dir="ltr"';} ?> >
 <!-- Begin Head -->
   <head>
     <!----- Required MetaTags ----->
