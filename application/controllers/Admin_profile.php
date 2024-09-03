@@ -22,13 +22,21 @@ class Admin_profile extends CI_Controller {
 		// check select language
 		$this->load->helper('language');
 		$language = $this->general_settings('language_name');
-		if($language=="french"){
-			$this->lang->load('french_lang', 'french');
-		}else if($language=="arabic"){
-			$this->lang->load('arabic_lang', 'arabic');
-		}else{
-			$this->lang->load('english_lang', 'english');
-		}
+		switch ($language) {
+    		case "french":
+        		$this->lang->load('french_lang', 'french');
+        		break;
+    		case "arabic":
+        		$this->lang->load('arabic_lang', 'arabic');
+        		break;
+    		case "english":
+        		$this->lang->load('english_lang', 'english');
+        		break;
+    		default:
+				$this->lang->load('spanish_lang', 'spanish');
+        		break;
+}
+
 			
 		
 	}

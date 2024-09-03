@@ -12,7 +12,7 @@
                                 <option <?php if($language_name=="english"){ echo 'selected';} ?> value="english">English</option>
 								<option <?php if($language_name=="french"){ echo 'selected';} ?> value="french">French</option>
 								<option <?php if($language_name=="arabic"){ echo 'selected';} ?> value="arabic">Arabic</option>
-                                <option <?php if($language_name=="español"){ echo 'selected';} ?> value="español">Español</option>
+                                <option <?php if($language_name=="spanish"){ echo 'selected';} ?> value="spanish">Español</option>
 								</select>
                             
                         </div>
