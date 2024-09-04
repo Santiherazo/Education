@@ -36,9 +36,7 @@ class Admin_profile extends CI_Controller {
 				$this->lang->load('spanish_lang', 'spanish');
         		break;
 }
-
-			
-		
+	
 	}
 	public function index()
 	{
