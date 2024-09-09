@@ -175,7 +175,7 @@
 	<section class="main_wrapper">
 		<!----- Header Start ----->
 		<header>
-			<div class="edu_header_top">
+			<!--<div class="edu_header_top">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
@@ -228,7 +228,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<div class="edu_header_wrapper">
 				<div class="container-fluid">
 					<div class="row align-items-center">
@@ -242,7 +242,7 @@
 								<!----- Header Menus ----->
 								<div class="edu_nav_items main_menu_wrapper text-right">
 									<ul>
-										<li><a href="<?php echo base_url();?>">Incio</a></li>
+										<li><a href="<?php echo base_url();?>">Inicio</a></li>
 										<li><a href="<?php echo base_url('about-us');?>">Nosotros</a></li>
 										<li><a href="<?php echo base_url('courses-offered');?>">Cursos</a></li>
 										<li><a href="<?php echo base_url('blog');?>">Blog</a></li>
