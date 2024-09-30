@@ -153,7 +153,7 @@
         var ltr_valid_enter_your_phone="<?php echo html_escape($this->common->languageTranslator('ltr_valid_enter_your_phone')); ?>";
         var ltr_enter_your_message="<?php echo html_escape($this->common->languageTranslator('ltr_enter_your_message')); ?>";
         var ltr_send="<?php echo html_escape($this->common->languageTranslator('ltr_send')); ?>";
-        
+        var ltr_contractForms = "<?php echo html_escape($this->common->languageTranslator('ltr_contractForms')); ?>";
 	</script>
   </head>
   <body class="<?php if($this->common->language_name=='arabic'){ echo 'rtl' ;}?>">

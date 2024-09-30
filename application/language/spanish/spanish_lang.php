@@ -64,6 +64,9 @@ $lang['ltr_good'] = "Bueno";
 $lang['ltr_average'] = "Regular";
 $lang['ltr_poor'] = "Deficiente";
 $lang['ltr_choose_want_anage'] = "Elige lo que deseas gestionar";
+// Modulo de Contrataciones
+$lang['ltr_contract'] = "Contrataciones";
+$lang['ltr_contractForm'] = "Trabaja con nosotros";
 // Gestor de Grupos
 $lang['ltr_batch'] = "Grupo";
 $lang['ltr_select_batch'] = "Seleccionar Grupo";

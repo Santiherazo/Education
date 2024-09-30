@@ -116,6 +116,7 @@ $route['admin/add-question'] = 'admin_profile/add_question';
 $route['admin/add-question/(:any)'] = 'admin_profile/add_question/$1';
 $route['admin/doubts-classes'] = 'admin_profile/student_doubts_class';
 
+$route['admin/employs'] = 'admin_profile/employs';
 
 /* Teacher routes */
 $route['teacher/add-question'] = 'teacher_profile/add_question';
@@ -190,3 +191,4 @@ $route['video-gallery'] = 'home/video_gallery';
 $route['contact-us'] = 'home/contact';
 $route['privacy-policy'] = 'home/privacypolicy';
 $route['privacyandpolicy'] = 'home/privacyandpolicy';
+$route['employs'] = 'home/employs';

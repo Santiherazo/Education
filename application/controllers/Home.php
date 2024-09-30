@@ -85,6 +85,17 @@ class Home extends CI_Controller {
       $this->load->view('frontend/about',$data);
       $this->load->view('common/front_footer',$data);
     }
+	
+	function employs(){
+		$data['title'] = $this->lang->line('ltr_contract'); 
+		$data['frontend_details'] = $this->db_model->select_data('*','frontend_details',array('id'=>'1'),1);
+		$data['courses'] = $this->db_model->select_data('course_name','courses use index (id)',array('status'=>'1','admin_id'=>'1'),5);
+		$data['facilities'] = $this->db_model->select_data('title','facilities use index (id)',array('status'=>'1'),5);
+		$this->load->view('common/front_header',$data);
+		$this->load->view('frontend/employs',$data);
+		$this->load->view('common/front_footer',$data);
+	  }
+	  
 
     function courses(){
       $data['title'] =$this->lang->line('ltr_courses_offered'); 

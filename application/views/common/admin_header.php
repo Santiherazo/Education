@@ -219,6 +219,7 @@ $cur_arr = explode('/',$_SERVER['REQUEST_URI']);
 					    <span><?php echo html_escape($this->common->languageTranslator('ltr_dashboard')); ?></span>
 					    </a>
 					 </li>
+					 <li <?php echo (in_array("employs",$cur_arr))?'class="active"':''; ?>><a href="<?php echo base_url();?>admin/employs"><?php echo html_escape($this->common->languageTranslator('ltr_contract')); ?></a>
 					<li class="has_sub_menu <?php echo (in_array("batch-manage",$cur_arr) || in_array("notice-manage",$cur_arr) || in_array("subject-manage",$cur_arr) || in_array("question-manage",$cur_arr)||in_array("question-manage",$cur_arr)||in_array("vacancy-manage",$cur_arr)||in_array("live-class",$cur_arr)||in_array("live-class-history",$cur_arr))?'active':''; ?>">
 					    <a href="javascript:void(0);" class="">
 							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

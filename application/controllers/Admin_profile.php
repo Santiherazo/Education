@@ -85,6 +85,13 @@ class Admin_profile extends CI_Controller {
 		$this->load->view('common/admin_footer');
 	}
 
+	function employs(){
+		$header['title'] = $this->lang->line('ltr_contract');
+		$this->load->view('common/admin_header',$header);
+		$this->load->view('admin/employs');
+		$this->load->view('common/admin_footer');
+	}
+
 	function course_manage(){
 		$header['title'] = $this->lang->line('ltr_manage_course');
 		$this->load->view('common/admin_header',$header);

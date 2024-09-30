@@ -60,6 +60,7 @@
 							<li><a href="<?php echo base_url();?>facilities"><span><?php echo html_escape($this->common->languageTranslator('ltr_facilities')); ?></span></a></li>
 						    <li><a href="<?php echo base_url();?>contact-us"><span><?php echo html_escape($this->common->languageTranslator('ltr_contact_us')); ?></span></a></li>
 						    <li><a href="<?php echo base_url();?>privacy-policy"><span><?php echo html_escape($this->common->languageTranslator('ltr_privacy_policy')); ?></span></a></li>
+							<li><a href="<?php echo base_url();?>employs"><span><?php echo html_escape($this->common->languageTranslator('ltr_contractForms')); ?></span></a></li>
 						</ul>
 					</div>
 				</div>
